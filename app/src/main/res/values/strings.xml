@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Marshall GoldSmith App</string>
+    <string name="Login">Login</string>
+    <string name="Signup">Signup</string>
+    <string name="Login_hint_user_name">Enter your username / mailid</string>
+    <string name="Login_hint_password">Enter Password</string>
+    <string name="Signup_hint_mail">Enter your Email Id</string>
+</resources>
