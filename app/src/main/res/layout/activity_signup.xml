@@ -28,7 +28,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/Signup_hint_mail"/>
-    <TextView
+    <EditText
+        android:id="@+id/Contact_EText_Signup"
+        android:layout_below="@id/mail_EText_Signup"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:hint="@string/Signup_hint_contact"/>
+    <Button
+        android:id="@+id/signup_button_Page"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Signup"
+        android:textColor="@color/colorWhiteText"
+        android:background="@color/colorSignup"
+        />
 </RelativeLayout>
