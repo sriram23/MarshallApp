@@ -20,7 +20,6 @@ public class LoginActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-// get editor to edit in file
 
     }
 }

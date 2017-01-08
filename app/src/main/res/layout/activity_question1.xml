@@ -48,6 +48,7 @@
         android:textColor="@color/colorWhiteText"
         android:background="@color/colorTransparentBtn"/>
     <Button
+        android:id="@+id/Button_next1"
         android:layout_width="175dp"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
