@@ -6,4 +6,5 @@
     <color name="colorLogin">#440000FF</color>
     <color name="colorSignup">#4400FF00</color>
     <color name="colorWhiteText">#FFFFFF</color>
+    <color name="colorTransparentBtn">#66ffffff</color>
 </resources>

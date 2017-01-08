@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_question1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marshall"
+    tools:context="com.example.sriram.marshallgoldsmithapp.Question1Activity">
+    <TextView
+        android:id="@+id/Header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question"
+        android:textColor="@color/colorWhiteText"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="30sp"
+        android:background="@color/colorLogin"/>
+    <TextView
+        android:id="@+id/ques1"
+        android:layout_below="@id/Header"
+        android:padding="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Have you did your regular Coding Practice?"
+        android:textColor="@color/colorWhiteText"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-smallcaps"/>
+
+    <Switch
+        android:id="@+id/Switch_Ques_1"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#44ffffff"
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/ques1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Select YES/NO"
+        android:textColor="@color/colorWhiteText"/>
+    <Button
+        android:id="@+id/Button_back1"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_alignParentBottom="true"
+        android:text="Back"
+        android:textColor="@color/colorWhiteText"
+        android:background="@color/colorTransparentBtn"/>
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="Next"
+        android:textColor="@color/colorWhiteText"
+        android:background="@color/colorTransparentBtn"/>
+</RelativeLayout>
